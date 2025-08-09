@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #0f172a; /* slate-900-ish */
+  --navy-light: #1e293b; /* slate-800 */
+  --gold: #f59e0b; /* amber-500 */
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-slate-50 text-slate-800;
+}
